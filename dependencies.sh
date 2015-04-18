@@ -14,6 +14,7 @@ easy_install -U pip
 pip install djangocms-installer
 pip install Django
 pip install --upgrade --force-reinstall pillow
+pip install django-registration-redux
 
 if ! [ -L /var/www ]; then
       rm -rf /var/www
